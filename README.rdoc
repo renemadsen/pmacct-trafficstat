@@ -1,0 +1,43 @@
+= pmacct-trafficstat (born nov 2009)
+
+http://github.com/renemadsen/pmacct-trafficstat
+
+== DESCRIPTION:
+
+The intention is to create a page, where you as a user may watch the traffic flow.
+
+== FEATURES/PROBLEMS:
+
+   Be able to manage users.
+   Be able to select an IP address and watch stats for this address
+   Be able to watch the differences between incoming/outgoing traffic.
+   Be able to distinguish between different traffic types.
+
+== REQUIREMENTS:
+
+It's required that you have a running setup of pmacct loggin incomming traffic.
+
+== LICENSE:
+
+(The MIT License)
+
+Copyright (c) 2009 Schultz Consult - Rene Madsen
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+'Software'), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
