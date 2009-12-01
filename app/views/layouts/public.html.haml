@@ -1,0 +1,50 @@
+- sidebar = yield :sidebar
+
+!!! Strict
+%html{ :xmlns => 'http://www.w3.org/1999/xhtml', :lang => "en" }
+  %head
+    %title= page_title 'Rdiff-backup web frontend'
+    = stylesheet_link_tag 'http://yui.yahooapis.com/2.7.0/build/reset-fonts-grids/reset-fonts-grids.css'
+    = stylesheet_link_tag 'screen'
+
+  %body
+    #doc3{ :class => sidebar.blank? ? nil : 'yui-t5' }
+      #hd
+        #user-links
+         
+        %h1= link_to 'Rdiff-backup web frontend', root_path
+        .clear
+          %hr
+
+      #bd
+        #yui-main
+          .yui-b
+            #main-outer
+              #page-title= page_title
+              #main
+                - if @content_for_actions
+                  #actions= yield :actions
+
+                - if flash.keys.length > 0
+                  #messages
+                    - flash.keys.each do |key|
+                      %div{ :class => key, :id => "flash_#{key}" }= flash[key]
+
+                = yield
+
+              #ft
+                &copy; Copyright 1998-2009 Schultz Consult
+                &middot; Pantheonsgade 18, 1.tv.
+                &middot; DK-5000 Odense C
+                &middot; T: +45 28 34 36 85
+                &middot;
+                %ul#languages
+                - I18n.available_locales.each do |l|
+                  = link_to t(l), :locale => l
+
+        - unless sidebar.blank?
+          #sidebar-outer.yui-b
+            #sidebar
+              = sidebar
+
+    = javascript_include_tag 'jquery', 'application'

@@ -1,0 +1,4 @@
+%ul
+  - unless current_user.nil?
+    - admin_area do
+      %li= menu_link t('.users', :default => 'Users'), users_path, 'users'
