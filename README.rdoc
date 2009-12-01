@@ -16,6 +16,7 @@ The intention is to create a page, where you as a user may watch the traffic flo
 == REQUIREMENTS:
 
 It's required that you have a running setup of pmacct loggin incomming traffic.
+The documentation for pmacct may be found at http://www.pmacct.net/
 
 == LICENSE:
 
