@@ -1,0 +1,225 @@
+html, body
+  :background-color #E5E5E5
+
+#doc3
+  :margin auto
+
+.clear
+  :clear both
+
+  hr
+    :display none
+
+#hd
+  :background-color #DB4F00
+  :padding 20px
+  :padding-bottom 0
+
+  #user-links
+    :color #FFFFFF
+    :float right
+
+    a
+      :color #FFFFFF
+
+  h1
+    :font-size 146.5%
+
+    a
+      :text-decoration none
+      :color #FFFFFF
+
+  #menu
+    ul
+      :margin-top 10px
+
+      li
+        :display inline
+
+        a
+          :padding 5px
+          :float left
+          :display block
+          :color #FFFFFF
+          :background-color #f74f00
+          //:background-color #CC6666
+          :margin-right 1px
+          :text-decoration none
+
+          &:hover, &.active
+            :background-color #e6e2e4
+            //:color #7a1501
+            //:color #d9300e
+            //:color #993333
+            :color #DB4F00
+
+#bd
+  :text-align left
+
+  a
+    :color #0000FF
+
+  #main-outer
+    :padding 20px
+    :padding-right 12px
+
+    #main, #page-title
+      :background-image url(/images/bg/right.gif)
+      :background-repeat repeat-y
+      :background-position right center
+
+    #page-title
+      :background-color #eef0f0
+      //:background-color #EDF3FE
+      :color #696868
+      :padding-left 20px
+      :padding-top 10px
+      :padding-bottom 10px
+      :font-size 146.5%
+
+    #main
+      :background-color #FFFFFF
+      :padding 20px
+      :padding-right 28px
+
+      strong
+        :font-weight bold
+
+      em
+        :font-style italic
+
+      u
+        :text-decoration underlined
+
+      h1
+        :font-size 146%
+
+      h2
+        :font-size 130%
+
+      h3
+        :font-size 110%
+
+      h4
+        :font-size 90%
+
+      h5
+        :font-size 80%
+
+      h6
+        :font-size 60%
+
+      pre
+        :background-color #EEEEEE
+        :border 1px solid #DDDDDD
+        :font-size 12px
+        :padding 0.75em 1.5em
+
+      #messages
+        :position relative
+        :top -5px
+
+        div
+          :padding 10px
+          :margin-bottom 10px
+
+          &.notice
+            :border 1px solid green
+            :background-color #CCFFCC
+
+          &.warning
+            :border 1px solid red
+            :background-color #FFCCCC
+
+      table.list
+        :width 100%
+
+        th, td
+          :padding 5px
+
+        th
+          :font-weight bold
+          :background-color #F5F5F5
+
+        td
+          :border-bottom 1px solid #F5F5F5
+
+      #organizations
+        span.customer_no
+          :font-size 93%
+          :color #666666
+
+      #access_points_and_units
+        .access_points, .units
+          td.actions
+            a
+              :font-size 93%
+              :color #666666
+
+          tr.inactive
+            td
+              a
+                :color #999999
+
+          form
+            :margin-top 10px
+
+            label
+              :display none
+
+      #versions
+        :margin-top 20px
+
+        table
+          tr
+            th
+              :background-color transparent
+              :border-bottom 1px solid #F5F5F5
+
+            th, td
+              :font-size 11px
+              :color #999999
+
+              a
+                :color #999999
+
+      #users
+        td.email
+          :color #666666
+
+          a
+            :font-size 93%
+            :color #666666
+
+  #sidebar-outer
+    #sidebar
+      :padding 20px
+      :padding-left 0
+
+      .box
+        :margin-bottom 20px
+
+        h2
+          :color #666666
+          :font-weight bold
+
+#ft
+  :background-color transparent
+  :background-image url(/images/bg/bottom.gif)
+  :background-position right top
+  :background-repeat no-repeat
+  :padding 20px
+  :color #999999
+  :font-size 85%
+
+  ul#languages
+    :display inline
+
+    li
+      :display inline
+
+      a
+        :color #999999
+
+@import public.sass
+@import forms.sass

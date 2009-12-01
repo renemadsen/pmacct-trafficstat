@@ -1,0 +1,329 @@
+html, body {
+  background-color: #E5E5E5; }
+
+#doc3 {
+  margin: auto; }
+
+.clear {
+  clear: both; }
+  .clear hr {
+    display: none; }
+
+#hd {
+  background-color: #DB4F00;
+  padding: 20px;
+  padding-bottom: 0; }
+  #hd #user-links {
+    color: #FFFFFF;
+    float: right; }
+    #hd #user-links a {
+      color: #FFFFFF; }
+  #hd h1 {
+    font-size: 146.5%; }
+    #hd h1 a {
+      text-decoration: none;
+      color: #FFFFFF; }
+  #hd #menu ul {
+    margin-top: 10px; }
+    #hd #menu ul li {
+      display: inline; }
+      #hd #menu ul li a {
+        padding: 5px;
+        float: left;
+        display: block;
+        color: #FFFFFF;
+        background-color: #f74f00;
+        margin-right: 1px;
+        text-decoration: none; }
+        #hd #menu ul li a:hover, #hd #menu ul li a.active {
+          background-color: #e6e2e4;
+          color: #DB4F00; }
+
+#bd {
+  text-align: left; }
+  #bd a {
+    color: #0000FF; }
+  #bd #main-outer {
+    padding: 20px;
+    padding-right: 12px; }
+    #bd #main-outer #main, #bd #main-outer #page-title {
+      background-image: url(/images/bg/right.gif);
+      background-repeat: repeat-y;
+      background-position: right center; }
+    #bd #main-outer #page-title {
+      background-color: #eef0f0;
+      color: #696868;
+      padding-left: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-size: 146.5%; }
+    #bd #main-outer #main {
+      background-color: #FFFFFF;
+      padding: 20px;
+      padding-right: 28px; }
+      #bd #main-outer #main strong {
+        font-weight: bold; }
+      #bd #main-outer #main em {
+        font-style: italic; }
+      #bd #main-outer #main u {
+        text-decoration: underlined; }
+      #bd #main-outer #main h1 {
+        font-size: 146%; }
+      #bd #main-outer #main h2 {
+        font-size: 130%; }
+      #bd #main-outer #main h3 {
+        font-size: 110%; }
+      #bd #main-outer #main h4 {
+        font-size: 90%; }
+      #bd #main-outer #main h5 {
+        font-size: 80%; }
+      #bd #main-outer #main h6 {
+        font-size: 60%; }
+      #bd #main-outer #main pre {
+        background-color: #EEEEEE;
+        border: 1px solid #DDDDDD;
+        font-size: 12px;
+        padding: 0.75em 1.5em; }
+      #bd #main-outer #main #messages {
+        position: relative;
+        top: -5px; }
+        #bd #main-outer #main #messages div {
+          padding: 10px;
+          margin-bottom: 10px; }
+          #bd #main-outer #main #messages div.notice {
+            border: 1px solid green;
+            background-color: #CCFFCC; }
+          #bd #main-outer #main #messages div.warning {
+            border: 1px solid red;
+            background-color: #FFCCCC; }
+      #bd #main-outer #main table.list {
+        width: 100%; }
+        #bd #main-outer #main table.list th, #bd #main-outer #main table.list td {
+          padding: 5px; }
+        #bd #main-outer #main table.list th {
+          font-weight: bold;
+          background-color: #F5F5F5; }
+        #bd #main-outer #main table.list td {
+          border-bottom: 1px solid #F5F5F5; }
+      #bd #main-outer #main #organizations span.customer_no {
+        font-size: 93%;
+        color: #666666; }
+      #bd #main-outer #main #access_points_and_units .access_points td.actions a, #bd #main-outer #main #access_points_and_units .units td.actions a {
+        font-size: 93%;
+        color: #666666; }
+      #bd #main-outer #main #access_points_and_units .access_points tr.inactive td a, #bd #main-outer #main #access_points_and_units .units tr.inactive td a {
+        color: #999999; }
+      #bd #main-outer #main #access_points_and_units .access_points form, #bd #main-outer #main #access_points_and_units .units form {
+        margin-top: 10px; }
+        #bd #main-outer #main #access_points_and_units .access_points form label, #bd #main-outer #main #access_points_and_units .units form label {
+          display: none; }
+      #bd #main-outer #main #versions {
+        margin-top: 20px; }
+        #bd #main-outer #main #versions table tr th {
+          background-color: transparent;
+          border-bottom: 1px solid #F5F5F5; }
+        #bd #main-outer #main #versions table tr th, #bd #main-outer #main #versions table tr td {
+          font-size: 11px;
+          color: #999999; }
+          #bd #main-outer #main #versions table tr th a, #bd #main-outer #main #versions table tr td a {
+            color: #999999; }
+      #bd #main-outer #main #users td.email {
+        color: #666666; }
+        #bd #main-outer #main #users td.email a {
+          font-size: 93%;
+          color: #666666; }
+  #bd #sidebar-outer #sidebar {
+    padding: 20px;
+    padding-left: 0; }
+    #bd #sidebar-outer #sidebar .box {
+      margin-bottom: 20px; }
+      #bd #sidebar-outer #sidebar .box h2 {
+        color: #666666;
+        font-weight: bold; }
+
+#ft {
+  background-color: transparent;
+  background-image: url(/images/bg/bottom.gif);
+  background-position: right top;
+  background-repeat: no-repeat;
+  padding: 20px;
+  color: #999999;
+  font-size: 85%; }
+  #ft ul#languages {
+    display: inline; }
+    #ft ul#languages li {
+      display: inline; }
+      #ft ul#languages li a {
+        color: #999999; }
+
+body#public {
+  background-color: #E5E5E5; }
+  body#public #content {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    border: 1px solid #999999; }
+    body#public #content #hd {
+      padding: 0; }
+      body#public #content #hd a {
+        display: block;
+        padding: 20px; }
+    body#public #content #bd {
+      background-color: #FFFFFF;
+      padding: 20px;
+      padding-bottom: 15px;
+      text-align: left; }
+      body#public #content #bd #messages {
+        font-size: 116%;
+        padding-bottom: 15px; }
+      body#public #content #bd p {
+        padding-bottom: 10px;
+        font-size: 116%; }
+        body#public #content #bd p label {
+          width: 120px;
+          display: block;
+          float: left; }
+        body#public #content #bd p input[type=text], body#public #content #bd p input[type=password] {
+          width: 232px; }
+        body#public #content #bd p input[type=submit] {
+          float: right; }
+        body#public #content #bd p .forgot_password {
+          display: block;
+          padding-top: 5px; }
+          body#public #content #bd p .forgot_password a {
+            color: #999999;
+            font-size: 85%; }
+  body#public #ft {
+    background: transparent; }
+
+form.formtastic {
+  margin: 0;
+  padding: 0; }
+  form.formtastic ul, form.formtastic ol {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+  form.formtastic li {
+    margin: 0;
+    padding: 0; }
+  form.formtastic fieldset {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    display: inline-block; }
+    form.formtastic fieldset.buttons {
+      padding-left: 25%; }
+    form.formtastic fieldset ol li {
+      margin-bottom: 1.5em;
+      display: inline-block; }
+      form.formtastic fieldset ol li:after {
+        content: ".";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden; }
+      form.formtastic fieldset ol li label {
+        display: block;
+        width: 25%;
+        float: left;
+        padding-top: .2em; }
+      form.formtastic fieldset ol li li label {
+        line-height: 100%;
+        padding-top: 0; }
+        form.formtastic fieldset ol li li label input {
+          line-height: 100%;
+          vertical-align: middle;
+          margin-top: -0.1em; }
+      form.formtastic fieldset ol li fieldset {
+        position: relative; }
+        form.formtastic fieldset ol li fieldset legend {
+          position: absolute;
+          width: 25%;
+          padding-top: 0.1em; }
+          form.formtastic fieldset ol li fieldset legend span {
+            position: absolute; }
+        form.formtastic fieldset ol li fieldset ol {
+          float: left;
+          width: 74%;
+          margin: 0;
+          padding: 0 0 0 25%; }
+          form.formtastic fieldset ol li fieldset ol li {
+            padding: 0;
+            border: 0; }
+      form.formtastic fieldset ol li p.inline-hints {
+        color: #666;
+        margin: 0.5em 0 0 25%; }
+      form.formtastic fieldset ol li p.inline-errors {
+        color: #cc0000;
+        margin: 0.5em 0 0 25%; }
+      form.formtastic fieldset ol li ul.errors {
+        color: #cc0000;
+        margin: 0.5em 0 0 25%;
+        list-style: square; }
+        form.formtastic fieldset ol li ul.errors li {
+          padding: 0;
+          border: none;
+          display: list-item; }
+      form.formtastic fieldset ol li.string input, form.formtastic fieldset ol li.numeric input, form.formtastic fieldset ol li.text textarea {
+        width: 74%; }
+      form.formtastic fieldset ol li.boolean label {
+        padding-left: 25%;
+        width: auto; }
+        form.formtastic fieldset ol li.boolean label input {
+          margin: 0 0.5em 0 0.2em; }
+      form.formtastic fieldset ol li.radio fieldset ol {
+        margin-bottom: -0.6em; }
+        form.formtastic fieldset ol li.radio fieldset ol li {
+          margin: 0.1em 0 0.5em 0; }
+          form.formtastic fieldset ol li.radio fieldset ol li label {
+            float: none;
+            width: 100%; }
+            form.formtastic fieldset ol li.radio fieldset ol li label input {
+              margin-right: 0.2em; }
+      form.formtastic fieldset ol li.date fieldset ol li, form.formtastic fieldset ol li.time fieldset ol li, form.formtastic fieldset ol li.datetime fieldset ol li {
+        float: left;
+        width: auto;
+        margin: 0 .3em 0 0; }
+        form.formtastic fieldset ol li.date fieldset ol li label, form.formtastic fieldset ol li.time fieldset ol li label, form.formtastic fieldset ol li.datetime fieldset ol li label {
+          display: none; }
+          form.formtastic fieldset ol li.date fieldset ol li label input, form.formtastic fieldset ol li.time fieldset ol li label input, form.formtastic fieldset ol li.datetime fieldset ol li label input {
+            display: inline;
+            margin: 0;
+            padding: 0; }
+    form.formtastic fieldset:after {
+      content: ".";
+      display: block;
+      height: 0;
+      clear: both;
+      visibility: hidden; }
+  form.formtastic legend {
+    margin: 0;
+    padding: 0;
+    color: #000; }
+  form.formtastic input, form.formtastic textarea, form.formtastic select {
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    font-size: 100%; }
+  form.formtastic p {
+    margin: 0;
+    padding: 0; }
+  form.formtastic em, form.formtastic strong {
+    font-style: normal;
+    font-weight: normal; }
+  form.formtastic abbr, form.formtastic acronym {
+    border: 0;
+    font-variant: normal; }
+
+html[xmlns] form.formtastic fieldset {
+  display: block; }
+  html[xmlns] form.formtastic fieldset ol li {
+    display: block; }
+
+* html form.formtastic fieldset {
+  height: 1%; }
+  * html form.formtastic fieldset ol li {
+    height: 1%; }

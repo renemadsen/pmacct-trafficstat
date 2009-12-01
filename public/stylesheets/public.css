@@ -1,0 +1,40 @@
+body#public {
+  background-color: #E5E5E5; }
+  body#public #content {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    border: 1px solid #999999; }
+    body#public #content #hd {
+      padding: 0; }
+      body#public #content #hd a {
+        display: block;
+        padding: 20px; }
+    body#public #content #bd {
+      background-color: #FFFFFF;
+      padding: 20px;
+      padding-bottom: 15px;
+      text-align: left; }
+      body#public #content #bd #messages {
+        font-size: 116%;
+        padding-bottom: 15px; }
+      body#public #content #bd p {
+        padding-bottom: 10px;
+        font-size: 116%; }
+        body#public #content #bd p label {
+          width: 120px;
+          display: block;
+          float: left; }
+        body#public #content #bd p input[type=text], body#public #content #bd p input[type=password] {
+          width: 232px; }
+        body#public #content #bd p input[type=submit] {
+          float: right; }
+        body#public #content #bd p .forgot_password {
+          display: block;
+          padding-top: 5px; }
+          body#public #content #bd p .forgot_password a {
+            color: #999999;
+            font-size: 85%; }
+  body#public #ft {
+    background: transparent; }

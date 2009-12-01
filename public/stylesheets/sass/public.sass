@@ -1,0 +1,52 @@
+body#public
+  :background-color #E5E5E5
+
+  #content
+    :margin-top 40px
+    :margin-left auto
+    :margin-right auto
+    :width 400px
+    :border 1px solid #999999
+
+    #hd
+      :padding 0
+
+      a
+        :display block
+        :padding 20px
+
+    #bd
+      :background-color #FFFFFF
+      :padding 20px
+      :padding-bottom 15px
+      :text-align left
+
+      #messages
+        :font-size 116%
+        :padding-bottom 15px
+
+      p
+        :padding-bottom 10px
+        :font-size 116%
+
+        label
+          :width 120px
+          :display block
+          :float left
+
+        input[type=text], input[type=password]
+          :width= 400px - 120px - 20px - 20px - 2px - 6px
+
+        input[type=submit]
+          :float right
+
+        .forgot_password
+          :display block
+          :padding-top 5px
+
+          a
+            :color #999999
+            :font-size 85%
+
+  #ft
+    :background transparent
